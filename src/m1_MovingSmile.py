@@ -1,6 +1,11 @@
 import pygame
 import sys
 
+################################################################################
+# IMPORTANT:
+# Do this ENTIRE PROJECT by following the associated videos for Moving Smile.
+################################################################################
+
 
 def main():
     pygame.init()
