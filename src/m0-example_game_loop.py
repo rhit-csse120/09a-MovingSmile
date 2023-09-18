@@ -7,7 +7,8 @@ screen = pygame.display.set_mode((640, 480))
 
 while True:
 
-    for event in pygame.event.get():
+    events = pygame.event.get()  # List of events on this cycle of game loop
+    for event in events:
         print(event)  # Used for an example here
         if event.type == pygame.QUIT:
             sys.exit()

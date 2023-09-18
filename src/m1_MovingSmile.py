@@ -14,7 +14,8 @@ def main():
 
     while True:
         # TODO 7: Set the clock speed to 60 fps
-        for event in pygame.event.get():
+        events = pygame.event.get()  # List of events on this cycle of game loop
+        for event in events:
             if event.type == pygame.QUIT:
                 sys.exit()
             # TODO 4: Make a print statement for Up, Down, Left, and Right keys
