@@ -1,6 +1,7 @@
 import pygame
 import sys
 
+
 ################################################################################
 # IMPORTANT:
 # Do this ENTIRE PROJECT by following the associated videos for Moving Smile.
@@ -25,7 +26,7 @@ def main():
 
         # TODO 6: Make the eye pupils move while holding down the key
 
-        # API --> pygame.draw.circle(screen, color, (x, y), radius, thickness)
+        # API --> pygame.draw.circle(screen, color, (x, y), radius, optional width)
 
         pygame.draw.circle(screen, (255, 255, 0), (320, 240), 210)  # yellow circle
         pygame.draw.circle(screen, (0, 0, 0), (320, 240), 210, 4)  # black outline
@@ -40,11 +41,11 @@ def main():
 
         # TODO 1: Draw a nose
         # Suggestion: color (80,0,0) location (320,245), radius 10
-        # API --> pygame.draw.circle(screen, (r,g,b), (x, y), radius, thickness)
+        # API --> pygame.draw.circle(screen, (r,g,b), (x, y), radius, optional width)
 
         # TODO 2: Draw a mouth
         # Suggestion: color (0,0,0), x 230, y 320, width 180, height 30
-        # API --> pygame.draw.rect(screen, (r,g,b), (x, y, width, height), thickness)
+        # API --> pygame.draw.rect(screen, (r,g,b), (x, y, width, height), optional width)
 
         # TODO 3: Draw using a line (anything you want using the pygame.draw.line method)
 
