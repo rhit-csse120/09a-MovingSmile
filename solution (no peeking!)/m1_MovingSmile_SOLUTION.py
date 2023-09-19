@@ -55,7 +55,6 @@ def main():
 
         screen.fill((255, 255, 255))  # white
 
-
         # API --> pygame.draw.circle(screen, color, (x, y), radius, optional width)
 
         pygame.draw.circle(screen, (255, 255, 0), (320, 240), 210)  # yellow circle
