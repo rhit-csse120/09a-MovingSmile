@@ -13,8 +13,9 @@ def main():
     pygame.display.set_caption("Moving Smile")
     screen = pygame.display.set_mode((640, 480))
 
+    # TODO 7: Make a pygame.time.Clock and set the clock speed to 60 fps
+
     while True:
-        # TODO 7: Set the clock speed to 60 fps
         events = pygame.event.get()  # List of events on this cycle of game loop
         for event in events:
             if event.type == pygame.QUIT:
@@ -22,9 +23,9 @@ def main():
             # TODO 4: Make a print statement for Up, Down, Left, and Right keys
             # TODO 5: Make the eye pupils move with Up, Down, Left, and Right keys
 
-        screen.fill((255, 255, 255))  # white
+        # TODO 6: Make the eye pupils move while holding down the w/a/s/d keys
 
-        # TODO 6: Make the eye pupils move while holding down the key
+        screen.fill((255, 255, 255))  # white
 
         # API --> pygame.draw.circle(screen, color, (x, y), radius, optional width)
 
